@@ -8,6 +8,6 @@ If you want it synchronized across machines, clone the repo in the new machine a
 
 ```
 cd ~/aliases
-git pull
+git pull -q
 cp .bash_aliases ~/
 ```
