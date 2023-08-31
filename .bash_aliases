@@ -15,7 +15,7 @@ alias nvidia-watch='watch -n1 nvidia-smi'
 # google cloud ssh connection
 alias gcloudssh='gcloud compute ssh --ssh-flag='-ServerAliveInterval=240''
 alias gcloudsftp='gcloud compute sftp --ssh-flag='-ServerAliveInterval=240''
-
+alias gcloudvmssh='gcloud  alpha compute  tpus tpu-vm ssh --ssh-flag='-ServerAliveInterval=240''
 # interactive file tail - useful to check logs for running processes.
 alias itail='tail -f -n1' 
 
