@@ -46,4 +46,4 @@ esac
 
 # less with syntax highlighting. It needs source-highgliht package in ubuntu
 export LESSCOLOR=always
-export LESSCOLORIZER=/usr/bin/src-hilite-lesspipe.sh
+export LESSCOLORIZER=/usr/bin/source-highlight-esc.sh
