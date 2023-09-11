@@ -45,5 +45,7 @@ case "$TERM" in
 esac
 
 # less with syntax highlighting. It needs source-highgliht package in ubuntu
-export LESSCOLOR=always
-export LESSCOLORIZER=/usr/bin/source-highlight-esc.sh
+export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
+export LESS=' -R '
+#export LESSCOLOR=always
+#export LESSCOLORIZER=/usr/bin/source-highlight-esc.sh
