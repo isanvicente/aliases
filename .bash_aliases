@@ -44,3 +44,6 @@ case "$TERM" in
     ;;    
 esac
 
+# less with syntax highlighting. It needs source-highgliht package in ubuntu
+export LESSCOLOR=always
+export LESSCOLORIZER=/usr/bin/src-hilite-lesspipe.sh
